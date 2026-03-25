@@ -123,4 +123,6 @@ jobs:
             -backend-config="encrypt=true"
 
       - name: Terraform Plan
-  run: terraform plan -input=false -no-color || true
+  run: |
+    terraform plan -input=false -no-color
+  continue-on-error: true
