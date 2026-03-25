@@ -10,4 +10,4 @@ private_subnet_2 = "10.0.4.0/24"
 
 instance_type = "t3.micro"
 
-existing_s3_bucket = "kopama-nipina"
+existing_s3_bucket = "book-backk"
